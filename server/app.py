@@ -24,7 +24,7 @@ def index():
     return '<h1>Code challenge</h1>'
 
 #! Build a route for the endpoint GET /sorted-heroes
-# * This route should be return a list of heroes with their hero_powers serialized inside
+# * This route should be return a list of heroes sorted heroes in descending order by their super_name
 # * Each hero inside the list will only display the following columns: id, name, super_name, hero_powers
 # * Each nested hero_power inside their hero will only display the following columns: id, strength, hero_id, power_id
 # * If no heroes exist, then an empty list is returned
